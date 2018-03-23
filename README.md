@@ -4,12 +4,14 @@ All content by Casey Anderson unless denoted otherwise, 2018
 
 ## Overview
 
-This repository provides `Printed Circuit Board` (`PCB`) files, as well as Software Examples, for an Arduino-based `TIP120` actuator controlled via Potentiometer (or any Voltage Divider). As described (in more detail) [here](http://bildr.org/2011/03/high-power-control-with-arduino-and-tip120/), the TIP120 is capable of actuating Brushless DC Motors, Vibration Motors, Solenoids, or Large Lights, to name only a few.
+This repository provides `Printed Circuit Board` (`PCB`) files, as well as Software Examples, for an Arduino-based `TIP120` actuator controlled via `Potentiometer` (or any `Voltage Divider`). As described (in more detail) [here](http://bildr.org/2011/03/high-power-control-with-arduino-and-tip120/), the TIP120 is capable of actuating Brushless DC Motors, Vibration Motors, Solenoids, or Large Lights, to name only a few.
 
 
 ## PCB
 
 This double-sided `Pin Through Hole` (`PTH`) PCB was created in EAGLE.
+
+`VCC` is supplied to the board via `RAW`. `VCC` is also passed to the `tip` pin of the `CONN JACK STEREO 3.5MM` to actuate the load. Connection to motors/solenoids/whatever is accomplished via 3.5mm audio cable. Rate of actuation is set via `Potentiometer` and passed to `Arduino Mini` via `A0`.
 
 ### BOM
 
