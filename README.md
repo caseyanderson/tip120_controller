@@ -15,7 +15,7 @@ This double-sided `Pin Through Hole` (`PTH`) PCB was created in EAGLE.
 
 ### BOM
 
-Note: items not without a `Manufacturer Part Number` in the following list are generic.
+Note: items without a `Manufacturer Part Number` are generic.
 
 * 1x Arduino Pro Mini (3.3V, 8MHz)
 * 1x SWITCH SLIDE SPDT 200MA 30V, EG1218
