@@ -11,7 +11,7 @@ This repository provides `Printed Circuit Board` (`PCB`) files, as well as softw
 
 This double-sided `Pin Through Hole` (`PTH`) PCB was created in EAGLE.
 
-`VCC` is supplied to the board via `RAW` (12V maximum). `VCC` is also passed to the `T` pin of the `CONN JACK STEREO 3.5MM` to actuate the load. Connection to motors/solenoids/whatever is accomplished via 3.5mm audio cable. Rate of actuation is set via `Potentiometer` and passed to `Arduino Mini` via `A0`.
+`VCC` is supplied to the board via `RAW` (12V maximum). `VCC` is also passed to the `T` pin of the `CONN JACK STEREO 3.5MM`. Connection to motors/solenoids/whatever is accomplished via 3.5mm audio cable. Rate of actuation is set via `Potentiometer` and passed to `Arduino Mini` via `A0`.
 
 ### BOM
 
