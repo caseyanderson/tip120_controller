@@ -4,7 +4,7 @@ Casey Anderson, 2018
 
 ## Overview
 
-This repository provides `Printed Circuit Board` (`PCB`) files, as well as software examples, for an Arduino-based `TIP120` actuator controlled via `Potentiometer` (or any `Voltage Divider`). As described (in more detail) [here](http://bildr.org/2011/03/high-power-control-with-arduino-and-tip120/), the `TIP120` is capable of actuating a variety of devices including Brushless DC Motors, Vibration Motors, Solenoids, and Large Lights.
+This repository provides `Printed Circuit Board` (`PCB`) files, as well as software examples, for an Arduino-based `TIP120` actuator controlled via `Potentiometer` (or any `Voltage Divider`). As described (in more detail) [here](http://bildr.org/2011/03/high-power-control-with-arduino-and-tip120/), the `TIP120` is capable of actuating a variety of devices including brushless DC motors, vibration motors, solenoids, and lightbulbs.
 
 
 ## PCB
