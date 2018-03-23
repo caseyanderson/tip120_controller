@@ -13,11 +13,13 @@ The Double sided `Pin Through Hole` (PTH) PCB was created in EAGLE.
 
 ### BOM
 
+Note: items not without a Manufacturer Part Number in the following list are generic.
+
 * 1x Arduino Pro Mini (3.3V, 8MHz)
-* 1x 10kR Potentiometer (or any other 10kR Voltage Divider)
-* 1x EZ Switch
-* 1x DC Coax (Center Positive)
-* 1x 3.5mm Audio Jack (connected to output via 3.5mm cable)
+* 1x SWITCH SLIDE SPDT 200MA 30V, E-Switch EG1218
+* 1x CONN PWR JACK 2X5.5MM SOLDER, PJ-102A
+* 1x CONN JACK STEREO 3.5MM, SJ1-3523N
+* 1x POT 10K OHM 1/20W CARBON LOG, PTV09A-4020F-A103
 * 1x TIP120
 * 1x 1N4004 Diode
 * 1x 220R
