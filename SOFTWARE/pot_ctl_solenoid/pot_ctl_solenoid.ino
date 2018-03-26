@@ -1,49 +1,24 @@
-/* pot ctl solenoid
+/*
+potentiometer sets rate of solenoid movement
 
 */
 
-const int ledPin =  LED_BUILTIN;// the number of the LED pin
-const int potPin = A0;
-const int solPin = 3;
-
-int ledState = LOW;             // ledState used to set the LED
-int valveState = LOW;
-
-unsigned long previousMillis = 0;        // will store last time LED was updated
-
-// constants won't change :
-unsigned long interval = 1000;           // interval at which to blink (milliseconds)
+const int PotPin = A0;
+unsigned long cycleDuration; // total duration of one cycle (onTime+offTime)
+unsigned long onTime = 75; // onTime within one cycle
+unsigned long lastCycleStart;// start time of cycle
 
 void setup() {
-  pinMode(ledPin, OUTPUT);
-  pinMode(solPin, OUTPUT);
-  pinMode(potPin, INPUT);
+  pinMode(13, OUTPUT);
+  pinMode(3, OUTPUT);
+
 }
 
 void loop() {
-
-  unsigned long currentMillis = millis();
-
-  interval = analogRead(potPin);
-  scaled = map(interval, 0, 1023, 250, 1000);
-
-  if (currentMillis - previousMillis >= scaled) {
-
-    previousMillis = currentMillis;
-
-    // if the LED is off turn it on and vice-versa:
-    if (ledState == LOW) {
-      ledState = HIGH;
-      valveState = HIGH;
-    } else {
-      ledState = LOW;
-      valveState = HIGH;
-    }
-
-    // set the LED and Solenoid with the ledState of the variable:
-    digitalWrite(ledPin, ledState);
-    digitalWrite(solPin, valveState);
-  }
-  delay(2);
+  // duration from onTime to onTime + 1023*20 milliseconds
+  cycleDuration = onTime + analogRead(PotPin) * 20L; //  multiply with 'long' factor to make result long
+  if (millis() - lastCycleStart >= cycleDuration)// time to start a new cycle
+    lastCycleStart += cycleDuration; // remember time when cycle started
+  digitalWrite(13, millis() - lastCycleStart < onTime); // LED HIGH during onTime
+  digitalWrite(3, millis() - lastCycleStart < onTime); // VALVE HIGH during onTime
 }
-
