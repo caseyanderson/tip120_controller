@@ -1,6 +1,8 @@
 /*
 potentiometer sets rate of solenoid movement
 
+code sourced from Arduino Help Message board (lost the url)
+
 */
 
 const int PotPin = A0;
