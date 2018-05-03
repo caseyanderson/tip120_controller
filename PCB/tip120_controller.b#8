@@ -1876,7 +1876,7 @@ design rules under a new name.</description>
 <attribute name="SF_SKU" value="COM-00102" x="11.43" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204V" package3d_urn="urn:adsk.eagle:package:25948/1" value="220" x="38.1" y="78.74" rot="R180"/>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="RED" x="43.815" y="77.47" rot="R270"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="RED" x="39.37" y="74.295" rot="R270"/>
 <element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220AH" package3d_urn="urn:adsk.eagle:package:29488/1" value="TIP120" x="8.89" y="59.055" rot="R90"/>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204V" package3d_urn="urn:adsk.eagle:package:25948/1" value="2.2k" x="15.24" y="52.705" rot="R270"/>
 <element name="J1" library="SparkFun-Connectors" package="AUDIO-JACK" value="AUDIO_JACK_3.5MM_PTH" x="3.175" y="59.055">
@@ -1902,17 +1902,17 @@ design rules under a new name.</description>
 <contactref element="Q1" pad="E"/>
 <contactref element="U$1" pad="4"/>
 <contactref element="VR1" pad="P$1"/>
-<wire x1="34.29" y1="76.2" x2="43.815" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="76.2" x2="39.37" y2="73.025" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="71.12" x2="34.29" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="10.8" y1="67.35" x2="19.05" y2="71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="7.5" y1="72.35" x2="10.8" y2="67.35" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="61.595" x2="10.8" y2="67.35" width="0" layer="19" extent="1-1"/>
-<wire x1="49.545" y1="58.46" x2="43.815" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="49.545" y1="58.46" x2="39.37" y2="73.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="39.37" y1="78.74" x2="43.815" y2="78.74" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="78.74" x2="39.37" y2="75.565" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="X1" pad="1"/>
