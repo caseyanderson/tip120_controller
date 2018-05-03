@@ -7,7 +7,7 @@ code sourced from Arduino Help Message board (lost the url)
 
 const int PotPin = A0;
 unsigned long cycleDuration; // total duration of one cycle (onTime+offTime)
-unsigned long onTime = 75; // onTime within one cycle
+unsigned long onTime = 50; // onTime within one cycle
 unsigned long lastCycleStart;// start time of cycle
 
 void setup() {
