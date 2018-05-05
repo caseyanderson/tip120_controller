@@ -1895,9 +1895,11 @@ design rules under a new name.</description>
 <element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220AV" package3d_urn="urn:adsk.eagle:package:29487/2" value="TIP120" x="12.7" y="59.055" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.875" y="63.8302" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="S1" library="SparkFun-Switches" package="SWITCH_SPDT_PTH_11.6X4.0MM_KIT" value="" x="11.43" y="78.74" rot="R270">
+<element name="S1" library="SparkFun-Switches" package="SWITCH_SPDT_PTH_11.6X4.0MM_KIT" value="EG1218" x="11.43" y="78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.51" y="77.978" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-08261" x="11.43" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_SKU" value="COM-00102" x="11.43" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="15.24" y="77.597" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
