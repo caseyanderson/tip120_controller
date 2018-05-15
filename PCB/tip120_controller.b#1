@@ -149,7 +149,7 @@
 <wire x1="51.74" y1="46.355" x2="51.74" y2="83.81" width="0" layer="20"/>
 <wire x1="51.74" y1="83.81" x2="-0.635" y2="83.81" width="0" layer="20"/>
 <wire x1="-0.635" y1="83.81" x2="-0.635" y2="46.355" width="0" layer="20"/>
-<text x="36.195" y="47.625" size="0.6096" layer="21" font="vector" ratio="15">tip120 controller v3
+<text x="36.195" y="47.625" size="0.6096" layer="21" font="vector" ratio="15">tip120 controller v4
 summer 2018
 
 caseyanderson.com
